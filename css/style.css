@@ -122,6 +122,10 @@ header {
 	font-size: 124px;
 }
 
+path.current-floor {
+	opacity: 0.75;
+}
+
 .button-primary {
 	background: #3596f5;
 	border-radius: 6px;
