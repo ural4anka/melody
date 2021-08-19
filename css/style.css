@@ -81,17 +81,17 @@ header {
 }
 
 .main-info {
-	margin-top: 18px;
+	margin-top: 42px;
 	height: 505px;
 	flex-grow: 1;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: space-between;
 }
 
 .counter-group {
-	margin-top: 80px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -107,6 +107,7 @@ header {
 }
 
 .main-title {
+	margin: 0;
 	font-family: 'Bebas Neue', sans-serif;
 	font-size: 37px;
 	font-style: normal;
@@ -122,7 +123,6 @@ header {
 }
 
 .button-primary {
-	margin-top: 56px;
 	background: #3596f5;
 	border-radius: 6px;
 	color: #fff;
