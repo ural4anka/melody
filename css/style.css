@@ -101,7 +101,9 @@ header {
 	background-color: #fff;
 	border: none;
 }
-
+.counter-button:focus {
+	outline: none;
+}
 .counter-arrow-down {
 	transform: rotateX(180deg);
 }
